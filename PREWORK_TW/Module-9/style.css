@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+
+p.green {
+color: green;
+}
+
+.red {
+    color: red;
+    }
+
+.styledFont{
+    color: green;
+    }
+
+.blue {
+        color:blue;
+        }
+
+ .big {
+    font-size:40px;
+ } 
+ .tiny {font-size:20px;
+
+ } 
+ .center{
+    text-align: center
+
+ }
+ .font{
+    font-family: Arial;
+ }
+ .multiple{
+     color:orange;
+
+     font-size:30px;
+
+     font-weight:bold;
+
+ }
+
+ #styledImage{
+    border-style: solid;
+    border-color:orange;
+    border-width: 0.15in;
+ }
