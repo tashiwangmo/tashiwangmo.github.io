@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title> PORTFOLIO </title>
+
+<style>
+
+.navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+
+  body{
+    font-family: 'Merriweather', serif;
+    line-height: 3;
+  }
+
+  p{
+     width:80%;
+    margin: auto;
+  }
+
+.bg-1{
+    background-color: rgba(137, 197, 197, 0.685);
+    color: white;
+  }
+
+.bg-4{
+    background-color: #F9F7F8;
+padding:10px;
+position: fixed;
+bottom: 0;
+  width:100%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: purple;
+  color: white;
+}
+
+#myCarousel {
+width:90%;
+margin: auto;
+}
+
+a{
+color:white;
+text-decoration: none;
+}
+a:hover {
+    color:grey;
+    text-decoration: none;
+}
+
+a:active {
+    color: white}
+
+</style>
+</head>
+
+<body style="background-color:  #1abc9c;">
+
+    <nav class="navbar navbar-default">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="index.html"> Tashi Wangmo</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="index.html">About</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+   
+<div class="container">
+  <h2 style="color:white; text-align: center;">Portfolio</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+   
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+
+    
+    <div class="carousel-inner">
+        <div class="item active">
+        <img src="assets/images/a.jpg" alt="#" style="width:100%; ">
+        <div class="carousel-caption" style="color:white; background-color: black;">
+        <a target="_blank" href="assets/images/a.jpg">
+         <h2>Project 1</h2>
+        <p>Description about project goes here</p>
+        </a>
+        </div>
+        </div>
+
+    <div class="item">
+        <img src="assets/images/b.jpg" alt="#" style="width:100%;">
+        <div class="carousel-caption" style="color:white; background-color: black;">
+        <a target="_blank" href="assets/images/b.jpg">
+        <h2>Project 2</h2>
+        <p>Description about project goes here</p>
+        </a>
+        </div>
+         </div>    
+    
+    <div class="item">
+        <img src="assets/images/c.jpg" alt="#" style="width:100%;">
+        <div class="carousel-caption" style="color:white; background-color: black;">
+        <a target="_blank" href="assets/images/c.jpg">
+        <h2>Project 3</h2>
+        <p>Description about project goes here</p>
+        </a>
+        </div>
+        </div>
+
+    <div class="item">
+        <img src="assets/images/d.jpg" alt="#" style="width:100%;">
+        <div class="carousel-caption" style="color:white; background-color: black;">
+        <a target="_blank" href="assets/images/d.jpg">
+        <h2>Project 4</h2>
+        <p>Description about project goes here</p>
+        </a>
+        </div>
+        </div>
+
+    <div class="item">
+        <img src="assets/images/e.jpg" alt="#" style="width:100%;">
+        <div class="carousel-caption" style="color:white; background-color: black;">
+        <a target="_blank" href="assets/images/e.jpg">
+        <h2>Project 5</h2>
+        <p>Description about project goes here</p>
+        </a>
+        </div>
+        </div>
+    </div>
+
+   
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+<br>
+
+
+<footer class="container-fluid bg-4 text-center" >
+        <a href="https://www.facebook.com/tashi.wangmo.9" target="_blank" class="fa fa-facebook"></a>
+        <a href="www.linkedin.com/in/tashi-wangmo-4b1831a7" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/tawangla/?hl=en" target="_blank" class="fa fa-instagram"></a>
+        <br>
+        </footer>
+        </body>
+        </html>
