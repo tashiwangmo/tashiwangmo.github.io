@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+<meta charset="UTF-8">
+<title>CatchThemAll</title>
+
+<link rel="stylesheet" href="assets/css/reset.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+<div id="container">
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-6">
+        <img id= "header" src="assets/images/header.png" alt="P">
+        <h2>Catch them All!</h2> 
+        </div>
+        <div class="col-lg-4"></div>
+    </div>
+    
+    <div class= "row">
+            
+         
+        <div class="col-lg-9">
+            <button type="button" class="btn-btn-info" data-toggle="collapse" data-target="#rules">Click Here for Game Rules!</button>
+                <div id="rules" class="collapse">
+                <p>On your quest to catch them all, you are challenged to a battle.  A random CP (Combat Power) is assigned to you at the beginning of the challenge. You will face 4 Gen-One Pokémons in the battle, each with a hidden HP (Hit Points).</p> 
+                <p> By clicking on a Pokémon, their specific  HP(Hit points) will be added to the challenger’s total HP points.The HP for each Pokémon is hidden  until you click on them.</p>
+                <p> You win the battle by matching your assigned CP to the total HP and neutralizing your challenger. You lose if the total HP is higher than your CP.</p>
+                <p>Note: The value changes each time the challenge is attempted.</p>
+                </div>
+            </button>
+        </div>
+    
+
+        <div class="col-md-3"></div>
+        </div>
+
+    
+    <div class= "row">
+            <div class="col-lg-1"></div>
+
+        <div class="col-lg-3">
+        <p class="t">
+            Assigned CP status:
+            </p>
+        <div id="random"></div>    
+        </div>
+
+        <div class="col-lg-1"></div>
+
+        <div class="col-lg-3">
+        <div id="win-lose"></div>
+        <div>
+            <p class="t">
+            Wins:
+            </p>
+            <span id="wins">0</span>
+            </div>
+        
+        <div>
+            <p class="t">
+            Losses :
+            </p>    
+            <span id="losses">0</span>
+            </div>
+        </div>
+        <div class="col-lg-4"></div>
+
+    </div>
+    <br>
+
+    <div class= "row">
+        <div class="col-lg-9">
+            <div id="buttons">
+            <button id="one"><img src="assets/images/squirtle.png" alt="squirtle"></button>
+            <button id="two"><img src="assets/images/charmander.png" alt="charmander"></button>
+            <button id="three"><img src="assets/images/bulbasaur.png" alt="bulbasaur"></button>
+            <button id="four"><img src="assets/images/pikachu.png" alt="pikachu"></button>
+            </div>
+        </div>
+        <div class="col-md-3"></div> 
+    </div>
+    <br>
+
+    <div class= "row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-6" id="iv">
+            <p class="t">
+             The total HP is:
+            </p>
+            <div id="total-score" class="t"></div>
+        </div>
+        
+        <div class="col-lg-4"></div>
+    </div>
+</div>
+    
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+  
+</html>
