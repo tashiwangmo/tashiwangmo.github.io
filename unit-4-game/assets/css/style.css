@@ -1,0 +1,76 @@
+body{
+ background-image: url(../images/bk1.png);
+ background-repeat: no-repeat;
+ background-size:140%;
+ height: 300% ;
+ font-family: 'Goudy Bookletter 1911', serif;
+ font-size:20px;
+ color:black;
+ padding: 20px;
+ text-align: center;
+
+}
+.btn btn-link{
+
+}
+
+h2{
+    font-size:60px;
+}
+
+#header{
+width: 90%;
+clear:right;
+
+}
+
+img{
+width: 200px;
+float:left;
+clear:none;
+
+}
+
+#win-lose{
+color: red;
+font-size: 30px;
+padding:20px;
+}
+
+button{
+    border:black 2px double;
+    border-radius:25px;
+    margin:10px;
+}
+
+#random{
+    text-align: center;
+    padding:30px;
+    font-size:40px;
+    
+}
+
+.t{
+    border:black 1px double;
+    border-radius:25px;
+    width: 100%;
+    margin:5px;
+}
+
+.col-lg-9{
+    padding:10px
+}
+
+#total-score{
+    margin:5px;
+    padding:50px;
+    font-size:40px;
+    
+}
+
+.col-lg-3, #iv{
+    border:black 2px double;
+    border-radius:25px;
+    padding:10px;
+    margin:5px 5px 5px 0px;
+}
