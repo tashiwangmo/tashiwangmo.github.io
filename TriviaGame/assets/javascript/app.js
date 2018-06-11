@@ -138,7 +138,7 @@ function answerPage(){
 	var rightAnswerText = triviaQuestions[currentQuestion].answerList[triviaQuestions[currentQuestion].answer];
 	var rightAnswerIndex = triviaQuestions[currentQuestion].answer;
 	
-	var giphyURL = "http://api.giphy.com/v1/gifs/search?api_key=N7Xczx6vHkDSSDlyQ0RM9F7hSbu47lVh&q=" + search[currentQuestion] + "&limit=1&rating=g"
+	var giphyURL = "https://api.giphy.com/v1/gifs/search?api_key=N7Xczx6vHkDSSDlyQ0RM9F7hSbu47lVh&q=" + search[currentQuestion] + "&limit=1&rating=g"
     $.ajax({url: giphyURL, 
         method: 'GET'}).done(function(giphy){
         var currentGif = giphy.data;
