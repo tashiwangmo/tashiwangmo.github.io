@@ -1,0 +1,49 @@
+body{
+    background-image: url(../images/bk.jpeg);
+    text-align:center;
+    font-family: 'Song Myung', serif;
+    font-size:25px;
+    color:darkred;
+    
+}
+
+.jumbotrom{
+    width:800px;
+    height:500px;
+    padding:50px;
+ }
+h1{
+    text-align:center;
+}
+
+.col-lg-8{
+    text-align:center;
+}
+
+.thisChoice{
+    border:black 2px double;
+    border-radius:25px;
+    margin:10px;
+
+}
+.btn-custom{
+    background-color:darkred;
+    color:white;
+}
+button{
+    border:black 2px double;
+    border-radius:25px;
+    margin:10px;
+}
+#rules{
+    background-color: white;
+   align-content: center;
+}
+     
+#timeLeft{
+    text-align: right;
+}
+
+#header{
+    width: 80%;
+}

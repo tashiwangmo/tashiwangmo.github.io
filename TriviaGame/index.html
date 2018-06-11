@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Testing Trivia</title>
+
+<link rel="stylesheet" href="assets/css/reset.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+            <img id= "header" src="assets/images/header.jpg" alt="marvel">  
+            <br>
+            <button type="button" class="btn-btn-info" data-toggle="collapse" data-target="#rules">Instructons!</button>
+                <div id="rules" class="collapse">
+                <p>There are 7 easy questions.</p>
+                <p>You will have 15 seconds to answer each question.</p>
+                <p>GOOD LUCK!</p>
+                </div>
+            </button>
+            </div>
+            <div class="col-lg-2"></div>
+    </header>
+    
+    <div class='container'>
+    <div class="jumbotron">
+        <button class='btn btn-custom btn-lg' id='startBtn'>Let's Begin</button>
+
+        <!-- Question page -->
+        <div id=timeLeft></div>
+        <div id=currentQuestion></div>
+        <div class='question'></div>
+        <div class='answerList'></div>
+
+        <!-- Answer page  -->
+        <div id=message></div>
+        <div id=correctedAnswer></div>
+        <div id=gif></div>
+        
+        <!-- Score page -->
+        <div id=finalMessage></div>
+        <div id=correctAnswers></div>
+        <div id=incorrectAnswers></div>
+        <div id=unanswered></div>
+        <br>
+        <button id='startOverBtn' class='btn btn-custom btn-lg'></button>
+    </div>
+    </div>
+
+    
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+  
+</html>
